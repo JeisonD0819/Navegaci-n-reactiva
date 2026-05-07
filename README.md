@@ -51,30 +51,25 @@ Además, se implementó un algoritmo de resolución de laberintos. En este caso,
 
 # 📸 Resultados
 
-Agrega aquí:
+## 🚧 Implementación BUG2
 
-- Imágenes
-- Videos
-- Diagramas
-- Resultados experimentales
+![BUG2 Demo](videos/BugGif.gif)
 
----
+📹 Video completo:  
+[Descargar video BUG2](videos/Bug2.mp4)
 
-# 📖 Objetivos
+## 🧩 Resolución de laberintos
 
-- Aprender robótica móvil
-- Implementar navegación reactiva
-- Comprender algoritmos BUG
-- Resolver laberintos con robots autónomos
+![MazeSolve Demo](videos/MazeGif.gif)
 
----
+📹 Video completo:  
+[Descargar video MazeSolving](videos/mazes.mp4)
 
-# 📚 Referencias
+### ⚠️ Problemáticas presentadas
+Las problemáticas presentadas en esta práctica estuvieron principalmente relacionadas con la resolución y la repetibilidad de los sensores. En algunos momentos, los sensores no contaban con la suficiente precisión para el tipo de control que se estaba implementando. Además, se evidenciaron diferencias en los ángulos de giro del robot; por ejemplo, en ciertas ocasiones el robot giraba 90°, mientras que en otras realizaba giros de 89° o valores cercanos. Esta falta de repetibilidad provocó que la práctica tuviera que ajustarse continuamente a medida que se identificaban nuevas problemáticas durante las pruebas.
 
-- Siegwart
-- ev3dev Documentation
+Por otro lado, el lenguaje seleccionado para esta práctica también representó una limitación. Python, aunque es un lenguaje muy flexible y sencillo de implementar, resulta más lento en comparación con otros lenguajes de programación de bajo nivel. Esto afecta especialmente procesos que requieren una ejecución rápida y constante, como los lazos de control y algunos cálculos en tiempo real, generando pequeños retardos en la respuesta del sistema.
 
----
 
 # 👨‍💻 Autor
 
