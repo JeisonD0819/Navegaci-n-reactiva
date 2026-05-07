@@ -53,17 +53,17 @@ Además, se implementó un algoritmo de resolución de laberintos. En este caso,
 
 ## 🚧 Implementación BUG2
 
-![BUG2 Demo](videos/BugGif.gif)
+![BUG2 Demo](Videos/BugGif.gif)
 
 📹 Video completo:  
-[Descargar video BUG2](videos/Bug2.mp4)
+[Descargar video BUG2](Videos/Bug2.mp4)
 
 ## 🧩 Resolución de laberintos
 
-![MazeSolve Demo](videos/MazeGif.gif)
+![MazeSolve Demo](Videos/MazeGif.gif)
 
 📹 Video completo:  
-[Descargar video MazeSolving](videos/mazes.mp4)
+[Descargar video MazeSolving](Videos/mazes.mp4)
 
 ### ⚠️ Problemáticas presentadas
 Las problemáticas presentadas en esta práctica estuvieron principalmente relacionadas con la resolución y la repetibilidad de los sensores. En algunos momentos, los sensores no contaban con la suficiente precisión para el tipo de control que se estaba implementando. Además, se evidenciaron diferencias en los ángulos de giro del robot; por ejemplo, en ciertas ocasiones el robot giraba 90°, mientras que en otras realizaba giros de 89° o valores cercanos. Esta falta de repetibilidad provocó que la práctica tuviera que ajustarse continuamente a medida que se identificaban nuevas problemáticas durante las pruebas.
